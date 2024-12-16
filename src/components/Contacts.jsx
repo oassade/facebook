@@ -18,7 +18,6 @@ function Contacts() {
             <h6 className="title">
                 contact
             </h6>
-            <button>Change color</button>
             {
                 contacts && contacts.map((contact, index) => {
                     return <Contact key={index} profilePicture={contact.profilePicture} name={contact.name} />
